@@ -1,13 +1,33 @@
-.App {
+body {
+  background-color: #f5f5f5;
+  transition: all 1s ease;
+
+  margin: 0;
+  /*padding: 0 0 50rem 0;*/
+  font-family: sans-serif;
+
+}
+
+.marqueeContainer {
+  padding: 10rem;
+
+}
+.Marquee {
   text-align: center;
   font-size: 3rem;
   padding: .5rem;
   width: 70%;
-  margin: 15rem auto;
+  margin: 22rem auto;
   background: red;
+  transition: all .5s ease-out;
+
   /* animation: App-logo-spin infinite 1s alternate; */
   color: #fff;
-  
+  border: 0px dashed green;
+}
+
+.Marquee:hover {
+  border: 20px dashed green;
 }
 
 .App-logo {
